@@ -1,0 +1,4 @@
+pillow
+qrcode[pil]
+imageio-ffmpeg
+pyttsx3
