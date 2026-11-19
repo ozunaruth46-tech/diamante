@@ -1,0 +1,53 @@
+# Diamante 0.3 — todo o nada 💎
+
+mostrar "Hoy es", fecha_larga()
+mostrar "Faltan", dias_hasta("31/12/2026"), "días para fin de año"
+mostrar "Dentro de 300 días va a ser", sumar_dias(hoy(), 300)
+
+# Matemática y listas
+ventas = [50000, 8000, 50000, 5000, 120000]
+mostrar "Total:", formato_plata(suma(ventas))
+mostrar "Promedio:", formato_plata(promedio(ventas))
+mostrar "La mayor venta:", formato_plata(maximo(ventas))
+mostrar "Ordenadas:", ordenar(ventas, verdadero)
+mostrar "¿7 es primo?", es_primo(7)
+mostrar "El 21% de 50000 es", calcular_porcentaje(21, 50000)
+
+# Texto
+frase = "  diamante es el lenguaje más fácil del mundo  "
+mostrar capitalizar(recortar(frase))
+mostrar "Palabras:", contar_palabras(frase)
+mostrar "Contraseña segura:", largo(generar_contraseña(16)), "caracteres"
+
+# Fichas (datos con nombre)
+cliente = {"nombre": "Veterinaria Huellitas", "ciudad": "Plottier", "pagó": verdadero}
+mostrar cliente["nombre"], "de", cliente["ciudad"]
+guardar datos cliente en "cliente.json"
+leer datos de "cliente.json" y guardar en c
+mostrar "Leído del archivo:", c["nombre"]
+
+# Gráficos
+crear gráfico "ventas.png" de barras con etiquetas ["Ene", "Feb", "Mar", "Abr"] y valores [3, 5, 2, 8] y título "Páginas vendidas"
+crear gráfico "torta.png" de torta con etiquetas ["Web", "Vulkron", "App"] y valores [50, 30, 20] y título "Ingresos"
+
+# Fotos
+crear imagen "foto1.png" de 800 x 600 con fondo "celeste" y texto "Foto 1"
+crear imagen "foto2.png" de 800 x 600 con fondo "dorado" y texto "Foto 2"
+poner marca de agua "© Ruth Ozuna" en "foto1.png"
+pasar a blanco y negro "foto2.png"
+crear collage "collage.png" con fotos ["foto1.png", "foto2.png", "ventas.png", "torta.png"]
+
+# Video
+crear video "presentacion.mp4" con imagenes ["foto1.png", "foto2.png", "collage.png"] de 1 segundos cada una
+convertir video "presentacion.mp4" en gif
+
+# Página web lista para subir
+crear página web "mi_negocio.html" con título "Huellitas" y texto "Cuidamos a tu mascota." y whatsapp "299 596-2932" y color "celeste"
+
+# Si algo falla, Diamante no se rompe
+intentar:
+    leer archivo "no_existe.txt" y guardar en t
+si falla:
+    mostrar "No encontré el archivo, pero sigo funcionando 💪"
+
+mostrar "¡Listo! 💎"

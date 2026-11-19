@@ -1,0 +1,17 @@
+# Bot que le escribe a varias empresas, cada una con su nombre 💎
+# Si no configurás tu correo, Diamante simula el envío (no manda nada de verdad).
+
+empresas = [
+    ["Taller El Rápido", "contacto@elrapido.com"],
+    ["Veterinaria Huellitas", "hola@huellitas.com"],
+    ["Rotisería Doña Ana", "pedidos@donaana.com"]
+]
+
+enviados = 0
+para cada empresa en empresas:
+    nombre = empresa[0]
+    correo = empresa[1]
+    enviar correo a correo asunto "Página web para " + nombre mensaje "Hola " + nombre + ", hago páginas web modernas para comercios. ¿Les interesa una vista previa gratis?"
+    sumar 1 a enviados
+
+mostrar "Listo, correos enviados:", enviados

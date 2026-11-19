@@ -1,0 +1,32 @@
+# Diamante puede hacer muchas cosas 💎 (todo gratis)
+
+mostrar "Hoy es", hoy(), "y son las", hora()
+
+# Imágenes para redes
+crear imagen "cartel1.png" de 1080 x 1080 con fondo "plateado" y texto "Páginas web para tu comercio"
+crear imagen "cartel2.png" de 1080 x 1080 con fondo "negro" y texto "Desde $50.000" en color "plateado"
+crear imagen "cartel3.png" de 1080 x 1080 con fondo "azul" y texto "Escribime: 299 596-2932" en color "blanco"
+
+# Un video con esas imágenes
+crear video "promo.mp4" con imagenes ["cartel1.png", "cartel2.png", "cartel3.png"] de 2 segundos cada una
+
+# Una planilla que se abre con Excel
+ventas = [["Producto", "Precio"], ["Página web", 50000], ["Mantenimiento", 8000]]
+guardar planilla "ventas.csv" con ventas
+leer planilla "ventas.csv" y guardar en datos
+mostrar "La planilla tiene", largo(datos), "filas"
+
+# Un PDF
+crear pdf "presupuesto.pdf" con titulo "Presupuesto" y texto "Página web moderna, con WhatsApp, mapa y fotos.\nPrecio: $50.000 pago único."
+
+# Notas en un archivo de texto
+guardar "Lista de clientes" en archivo "clientes.txt"
+agregar "Veterinaria Huellitas" al archivo "clientes.txt"
+leer archivo "clientes.txt" y guardar en notas
+mostrar notas
+
+# Listas
+tareas = []
+agregar "Mandar presupuestos" a tareas
+agregar "Publicar en LinkedIn" a tareas
+mostrar "Tareas:", unir(tareas, " | ")

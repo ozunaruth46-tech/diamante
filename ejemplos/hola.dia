@@ -1,0 +1,26 @@
+# Mi primer programa en Diamante 💎
+nombre = "Ruth"
+mostrar "¡Hola,", nombre + "!"
+
+edad = 20
+si edad es mayor o igual que 18:
+    mostrar "Sos mayor de edad"
+sino:
+    mostrar "Sos menor de edad"
+
+repetir 3 veces:
+    mostrar "💎 Diamante"
+
+frutas = ["manzana", "pera", "uva"]
+para cada fruta en frutas:
+    mostrar "Me gusta la", fruta
+
+contador = 1
+mientras contador es menor o igual que 5:
+    mostrar "Contando:", contador
+    sumar 1 a contador
+
+función saludar(persona):
+    devolver "Bienvenida, " + persona
+
+mostrar saludar("Silver 🐶")
