@@ -137,4 +137,6 @@ Diamante es un **transpilador**: lee tu programa línea por línea, traduce cada
 
 ## Licencia
 
-Libre y gratuito (MIT). Hecho con 💎 en Plottier, Neuquén.
+Copyright © 2026 Ruth Abigail Ozuna. Todos los derechos reservados.
+
+Diamante es gratis para usar y probar, pero no está permitido copiar, modificar, redistribuir ni vender su código sin autorización escrita de la autora. Hecho con 💎 en Plottier, Neuquén.
