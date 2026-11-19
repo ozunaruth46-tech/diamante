@@ -137,6 +137,8 @@ Diamante es un **transpilador**: lee tu programa línea por línea, traduce cada
 
 ## Licencia
 
-Copyright © 2026 Ruth Abigail Ozuna. Todos los derechos reservados.
+Diamante es **libre y gratuito**, igual que Python: cualquiera puede usarlo, estudiarlo y mejorarlo, siempre que mantenga el aviso de autoría (licencia MIT).
 
-Diamante es gratis para usar y probar, pero no está permitido copiar, modificar, redistribuir ni vender su código sin autorización escrita de la autora. Hecho con 💎 en Plottier, Neuquén.
+Copyright © 2026 Ruth Abigail Ozuna. El nombre "Diamante 💎" identifica al proyecto original creado por Ruth Abigail Ozuna; las versiones modificadas por otras personas no pueden presentarse como la versión oficial.
+
+Hecho con 💎 en Plottier, Neuquén.
